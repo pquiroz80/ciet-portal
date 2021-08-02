@@ -1,0 +1,146 @@
+* {
+    padding: 0px;
+    margin: 0;
+    padding: 0;
+    /*background-color:#6b6b6b;*/
+}
+
+body {
+    overflow-y: auto;
+    width: 100%;
+    height: 100vh;
+    background-image: url("/images/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0px;
+}
+
+.cuerpo {
+    box-shadow: 5px -5px 25px #999;
+    border: 1px solid white;
+    width: 70%;
+    margin-inline: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    /* background-color:rgb(36, 34, 34, 0.75) ; */
+    background-color: teal;
+    backdrop-filter: blur(4px);
+    color: rgb(0, 0, 0);
+    margin-bottom: 3em;
+    position: relative;
+    float: left;
+    left: 15%;
+}
+
+.cuerpo:before,
+.cuerpo:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.datos {
+    /* border: 1px solid red; */
+    width: max-content;
+    display: inline-block;
+    margin: 10px;
+}
+
+#Tregistro {
+    width: max-content;
+    margin-inline: auto;
+    padding-top: 10px;
+    color: #00794b;
+}
+
+#cajaFormulario {
+    /* border: 1px solid rgb(5, 255, 67); */
+    width: 90%;
+    margin-inline: auto;
+    margin-block: 30px;
+}
+
+form input {
+    margin: 10px 20px;
+    padding-block: 6px;
+    border: 0;
+    border-bottom: 1px solid rgba(185, 185, 185);
+    background-color: transparent;
+    color: #012e17;
+    outline: none;
+}
+
+form input:focus {
+    border-bottom: 2px solid #00794b;
+}
+
+.btn {
+    background-color: #077e41;
+    color: rgb(207, 228, 216);
+    border: 1px solid #077e41;
+}
+
+#boton {
+    width: 150px;
+    height: 35px;
+}
+
+#caja_boton {
+    text-align: center;
+    margin-inline: auto;
+}
+
+.datos figure {
+    position: absolute;
+    top: 60%;
+    right: 10%;
+    opacity: 0;
+}
+
+.datos figure img {
+    border-radius: 10px;
+    height: 150px;
+    width: 300px;
+}
+
+.entrada,
+.entrada_red {
+    width: 200px;
+    padding-left: 10px;
+}
+
+::placeholder {
+    color: #020202;
+    opacity: 0.8;
+}
+
+#npersona {
+    text-align: center;
+}
+
+#precio {
+    color: rgb(255, 121, 44);
+}
+
+
+/*footer*/
+
+#pie {
+    background-color: #012b1c;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+#pie .cajaInfo {
+    float: left;
+    width: 50%;
+    margin-block: 20px;
+}
+
+#pie {
+    text-align: center;
+    color: #fff;
+}

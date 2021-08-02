@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.imagenPortada {
+    margin-inline: auto;
+    width: 96%;
+}
+
+.galeria {
+    float: right;
+    width: 96%;
+    height: 50vh;
+    margin-inline: auto;
+}
+
+.galeria img {
+    top: 70px;
+    position: absolute;
+    opacity: 0;
+    width: 96%;
+    height: 50vh;
+    transition: opacity 5s;
+    box-shadow: 5px -5px 25px #999;
+}
+
+.galeria input {
+    position: relative;
+    z-index: 100;
+    display: inline-block;
+    top: 45vh;
+    left: 100vh;
+    visibility: visible;
+    opacity: 0.5;
+}
+
+.galeria input[type=radio]:nth-of-type(1):checked~figure img:nth-of-type(1) {
+    opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(2):checked~figure img:nth-of-type(2) {
+    opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(3):checked~figure img:nth-of-type(3) {
+    opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(4):checked~figure img:nth-of-type(4) {
+    opacity: 1;
+}
+
+
+/*footer*/
+
+#pie {
+    background-color: #012b1c;
+    width: 100%;
+    float: left;
+}
+
+#pie .cajaInfo {
+    float: left;
+    width: 33%;
+    margin-block: 20px;
+}
+
+#pie {
+    text-align: center;
+    color: #fff;
+}
+
+
+/*----------------------------------------------------------------*/
+
+.contenedor {
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 1%;
+    padding: 8px;
+    text-align: center;
+}
+
+.contenedor img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.boton {
+    background-color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 1px solid teal;
+    margin-top: 0.5cm;
+}
+
+@media (min-width: 360px) {
+    section {
+        width: 31%;
+        font-size: 8px;
+    }
+    .boton {
+        width: 80%;
+        font-size: 9px;
+    }
+}
+
+@media (min-width: 768px) {
+    section {
+        width: 31%;
+        font-size: 12px;
+    }
+    .boton {
+        width: 60%;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1200px) {
+    section {
+        width: 31%;
+        font-size: 16px;
+    }
+    .boton {
+        width: 50%;
+        font-size: 18px;
+    }
+}

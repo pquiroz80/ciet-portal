@@ -1,0 +1,19 @@
+.navbar {
+    height: 70px;
+    background-color: rgb(251, 255, 255);
+}
+
+.nave {
+    color: teal;
+    margin-inline: 30px;
+}
+
+.nave:hover {
+    color: rgb(90, 90, 90);
+}
+
+#logo {
+    margin-top: 15px;
+    width: max-content;
+    float: left;
+}

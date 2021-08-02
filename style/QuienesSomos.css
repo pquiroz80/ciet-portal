@@ -1,0 +1,51 @@
+#encabezadoSomos {
+    background-color: teal;
+    color: white;
+    height: 6em;
+}
+
+#encabezadoSomos h1 {
+    width: max-content;
+    margin-inline: auto;
+    line-height: 100px;
+}
+
+.description-somos {
+    width: 80%;
+    margin-inline: auto;
+    margin-block: 20px;
+}
+
+.description-somos p {
+    width: 50%;
+    margin-right: 5%;
+    text-align: justify;
+    float: left;
+}
+
+#imagenFamilia img {
+    width: 450px;
+}
+
+
+/*footer*/
+
+#pie {
+    background-color: #012b1c;
+    width: 100%;
+    float: left;
+}
+
+#pie .cajaInfo {
+    float: left;
+    width: 33%;
+    margin-block: 20px;
+}
+
+#pie {
+    text-align: center;
+    color: #fff;
+}
+
+
+/*----------------------------------------------------------------*/
